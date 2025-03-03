@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning and Earning Monitoring System: Welcome</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./img/Bangladesh Govt Logo 2.ico"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header class="section">
+        <div class="container logo_container">
+          <img
+            src="./img/ICT Division Logo.png"
+            alt="ICT Division Logo"
+            class="ict_Division logo"
+          />
+          <img
+            src="./img/Learning and Earning Project Logo.png"
+            alt="Learning and Earning Project Logo"
+            class="learning_earning logo"
+          />
+          <img
+            src="./img/a2i logo.png"
+            alt="Bangladesh Govt Logo"
+            class="govt_bd logo"
+          />
+        </div>
+      </header>
+
+      <nav class="section">
+        <div class="container nav_container">
+          <ul class="nav_menu">
+            <li class="list_item">
+              <a href="#" class="list_link">Home</a>
+            </li>
+
+            <li class="list_item">
+              <a href="#" class="list_link">Course Module - 2020</a>
+            </li>
+
+            <li class="list_item">
+              <a href="#" class="list_link">Class Schedule</a>
+            </li>
+
+            <li class="list_item">
+              <a href="#" class="list_link">Success Story</a>
+            </li>
+
+            <li class="list_item">
+              <a href="#" class="list_link">Attendance</a>
+            </li>
+
+            <li class="list_item">
+              <a href="#" class="list_link">FAQ</a>
+            </li>
+
+            <li class="list_item">
+              <a href="#" class="list_link">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Registration Section Start -->
+      <section class="section registration_section">
+        <div class="container">
+          <div class="registration_heading_div">
+            <h2 class="registration_heading">Student Registration Form</h2>
+          </div>
+          <div class="registration_information">
+            <div class="left_form_section">
+              <div>
+                <h3 class="left_section_heading">
+                  Please enter relevent information
+                </h3>
+                <p class="mandatory_field">Mandatory Field*</p>
+              </div>
+
+              <form
+                action="
+              "
+              >
+                <div>
+                  <label for="district" class="district_label"
+                    >District (Institute District: Where you want to do your
+                    course)*</label
+                  ><br />
+                  <select name="" id="district">
+                    <option value="--Select One--">--Select One--</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="">Khulna</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="Course" class="course_label">Course*</label><br />
+                  <select name="" id="Course">
+                    <option value="--Select One--">--Select One--</option>
+                    <option value="Graphic Design - 2020 (2020,February)">
+                      Graphic Design - 2020 (2020,February)
+                    </option>
+                    <option value="Digital Marketing - 2020 (2020,February">
+                      Digital Marketing - 2020 (2020,February
+                    </option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="st_name">Student Name*</label><br />
+                  <input type="text" id="st_name" />
+                </div>
+
+                <div>
+                  <label for="fh_name">Father Name*</label><br />
+                  <input type="text" id="fh_name" />
+                </div>
+
+                <div>
+                  <label for="mh_name">Mother Name*</label><br />
+                  <input type="text" id="mh_name" />
+                </div>
+
+                <div>
+                  <label for="date_of_birth">Date of Birth*</label>
+                  <div>
+                    <div>
+                      <label for="day">Day:</label>
+                      <select name="" id="day">
+                        <option value="Select">Select</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                      </select>
+                    </div>
+                    <div class="month">
+                      <label for="month">Month:</label>
+                      <select name="" id="month">
+                        <option value="Select">Select</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                      </select>
+                    </div>
+                    <div class="year">
+                      <label for="year">Year:</label>
+                      <select name="" id="year">
+                        <option value="Select">Select</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <p>Gender*</p>
+                  <input type="radio" id="male" name="gender" value="Male" />
+                  <label for="male">Male</label>
+                  <input
+                    type="radio"
+                    id="female"
+                    name="gender"
+                    value="Female"
+                  />
+                  <label for="female">Female</label>
+                  <input type="radio" id="other" name="gender" value="Other" />
+                  <label for="other">Other</label>
+                </div>
+
+                <div>
+                  <p>Physically Handicapped*</p>
+                  <input type="radio" id="yes" name="handicapped" value="Yes" />
+                  <label for="yes">Yes</label>
+                  <input type="radio" id="no" name="handicapped" value="No" />
+                  <label for="no">No</label>
+                </div>
+
+                <div>
+                  <label for="email">Email*</label><br />
+                  <input type="email" id="email" />
+                  <p>(e.g: example@gmail.com)</p>
+                </div>
+
+                <div>
+                  <label for="phone">Phone (Must be 11 Digits)*</label><br />
+                  <input type="number" id="phone" />
+                  <p>(e.g: 01551234567</p>
+                </div>
+              </form>
+            </div>
+
+            <div class="right_form_section">
+              <form action="">
+                <div>
+                  <label for="identification">Identification Type*</label><br />
+                  <select name="" id="identification">
+                    <option value="Select One">Select One</option>
+                    <option value="Birth Certificate No.">
+                      Birth Certificate No.
+                    </option>
+                    <option value="National ID">National ID</option>
+                  </select>
+                  <p>
+                    Identification No. (Must be 10 digits for new NID or 17
+                    digits for old NID. If your National ID is 13 digits, then
+                    please add your birth year with the ID as prefix. Example:
+                    1980XXXXXXXXXXXXX)*
+                  </p>
+                  <input type="number" />
+                </div>
+                <br />
+
+                <div>
+                  <label for="hm_district">Home District*</label><br />
+                  <select name="" id="hm_district">
+                    <option value="Select One">Select One</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Cumilla">Cumilla</option>
+                  </select>
+                </div>
+                <br />
+
+                <div>
+                  <label for="upazila">Upazila*</label><br />
+                  <select name="" id="upazila">
+                    <option value="Select One">Select One</option>
+                    <option value="Mirpur">Mirpur</option>
+                    <option value="Shahbagh">Shahbagh</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="address"
+                    >Village/House No./Road No./Other Alternative*</label
+                  ><br />
+                  <input type="text" id="address" />
+                </div>
+
+                <div>
+                  <label for="post_office">Post Office*</label><br />
+                  <input type="text" id="post_office" />
+                </div>
+
+                <div>
+                  <label for="education"
+                    >Educational Qualification* (Higher Level)</label
+                  ><br />
+                  <select name="" id="education">
+                    <option value="Select One">--Select One--</option>
+                    <option value="Bachelor">Bachelor</option>
+                    <option value="Masters">Masters</option>
+                  </select>
+                </div>
+
+                <div>
+                  <p>Have any computer?*</p>
+                  <input type="radio" id="yes" name="computer" value="Yes" />
+                  <label for="yes">Yes</label>
+                  <input type="radio" id="no" name="computer" value="No" />
+                  <label for="no">No</label>
+                </div>
+
+                <div>
+                  <label for="photograph">Photograph*</label><br />
+                  <input type="file" id="photograph" />
+                  <p>
+                    (File type must be jpg or jpeg or png. Maximum file size 2
+                    mb.)
+                  </p>
+                </div>
+
+                <div>
+                  <label for="signature">Signature</label><br />
+                  <input type="file" id="signature" />
+                  <p>
+                    (File type must be jpg or jpeg or png. Maximum file size 2
+                    mb.)
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+          <br /><br />
+          <button type="submit" class="submit_btn">Submit Data</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
